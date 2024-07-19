@@ -1,7 +1,7 @@
 var repliche = [{
     "id":1,
     "order":1,
-    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni1.gif","nevi","#reginanevi","Il Teatro dei Burattini"],
+    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni1.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2024-05-17",
     "meet":["17 maggio 2024","21.00","Abitazione privata"], 
     "adress":["via Donizzetti 12","Desenzano del Garda (BS)"],
@@ -10,7 +10,7 @@ var repliche = [{
     },{
    "id":2,
    "order":1,
-    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni2.gif","nevi","#reginanevi","Il Teatro dei Burattini"],
+    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni2.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2024-05-30",
     "meet":["30 maggio 2024","18.00","Abitazione privata"], 
     "adress":["via Donizzetti, 12","Desenzano del Garda (BS)"],
@@ -19,7 +19,7 @@ var repliche = [{
     },{
     "id":3,
     "order":1,
-    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni3.gif","nevi","#reginanevi","Il Teatro dei Burattini"],
+    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni3.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2024-08-02",
     "meet":["2 agosto 2024","21.00","Castel Cerreto"], 
     "adress":["Via Canonica, 150","Treviglio (BG)"],
@@ -28,7 +28,7 @@ var repliche = [{
     },{
     "id":4,
     "order":1,
-    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni1.gif","nevi","#reginanevi","Il Teatro dei Burattini"],
+    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni1.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2024-07-26",
     "meet":["26 luglio 2024","21.00","Casa delle associazioni (Villa Nicoli)"], 
     "adress":["Via Don Arturo Bietti, 25","Fornovo San Giovanni (BG)"],
@@ -37,7 +37,7 @@ var repliche = [{
     },{
     "id":5,
     "order":1,
-    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni2.gif","nevi","#reginanevi","Il Teatro dei Burattini"],
+    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni2.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2024-07-22",
     "meet":["22 luglio 2024","18.00","Abitazione privata"], 
     "adress":["via Donizzetti, 12","Desenzano del Garda (BS)"],
@@ -46,7 +46,7 @@ var repliche = [{
     },{
     "id":6,
     "order":1,
-    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni3.gif","nevi","#reginanevi","Il Teatro dei Burattini"],
+    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni3.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2024-11-10",
     "meet":["10 novembre 2024","16.00","Oratorio Paolo VI"], 
     "adress":["Via Europa, 37/F","Villa di Salò (BS)"],
@@ -55,7 +55,7 @@ var repliche = [{
     },{
     "id":7,
     "order":1,
-    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni1.gif","nevi","#reginanevi","Il Teatro dei Burattini"],
+    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni1.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2024-12-01",
     "meet":["1 dicembre 2024","16.00","da definire"], 
     "adress":["da definire","Roè Volciano (BS)"],
@@ -64,7 +64,7 @@ var repliche = [{
     },{
      "id":8,
     "order":1,
-    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni2.gif","nevi","#reginanevi","Il Teatro dei Burattini"],
+    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni2.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2024-09-08",
     "meet":["8 settembre 2024","18.00","da definire"], 
      "adress":["da definire","Urago Mella (BS)"],
