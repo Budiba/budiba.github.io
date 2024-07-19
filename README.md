@@ -1,1 +1,1 @@
-http//budiba.github.io/Home.html
+https://budiba.github.io/Home.html
