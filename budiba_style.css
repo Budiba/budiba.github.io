@@ -1,0 +1,296 @@
+/* Generic style */
+
+body {
+    background-image:url(/img/Sfondo_teatro.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    }
+
+.cellulare {
+    display: none;
+    }
+  
+ 
+hr {
+    color: white;
+    border: 2px solid white;
+    }
+
+.cornice{
+    padding: 3px;
+    margin:0 15%;
+    color: white;
+    }
+
+h2 {
+    color: crimson;
+    }   
+    
+.card {
+  background-color: white;
+  border: 1px solid crimson;
+  border-radius: 10px;
+  padding: 8px;
+  margin-bottom: 2px;
+  color: black;
+  }
+
+.spazio{
+    height: 250px;
+    }
+
+.btnbudiba {
+    background-color:  rgba(139,0,0);
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+    
+.btnbudiba:hover {
+    background-color:  rgba(139,0,0,0.1);
+    border: none;
+    color:  rgba(139,0,0);;
+}
+
+ /* Animazioni */
+ 
+ .glow  {
+    -webkit-animation: glow 2s ease-out infinite alternate;
+    -moz-animation: glow 2s ease-out infinite alternate;
+    animation: glow 2s ease-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+      color: goldenrod;  
+      text-shadow: 0 0 25px darkgoldenrod;
+      opacity:0.5;
+     }
+    to {
+      
+      color: lemonchiffon;
+      text-shadow: 0 0 30px gold;
+      opacity: 1;
+    }
+  } 
+
+.zoom {
+    transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+    transform: matrix(1.05, 0, 0, 1.05, 0, 0); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+/* For navbar */
+
+#mainNavigation a {
+    font-family: 'Cabin', sans-serif;
+    font-size:16px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    text-shadow:1px 1px 2px rgba(0,0,0,0.8)
+  }
+  
+  #BackgroundNavigation img {
+    height: 130px;
+  }
+
+  .dropdown-menu {
+    background:darkred
+  }
+  a.dropdown-toggle {
+    color:#dfdfdf !important
+  }
+  a.dropdown-item:hover {
+    color:darkred!important
+  }
+  .nav-item a{
+     color:#dfdfdf;
+  }
+  .nav-item a:hover {
+    color:#fff
+  }
+  .nav-item{
+    min-width:12vw;
+  }
+  
+  #BackgroundNavigation {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:123;
+    padding-bottom:25px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0.80) 0%,rgba(0,0,0,0.75) 50%,rgba(0,0,0,0.60) 85%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.80) 0%,rgba(0,0,0,0.75) 50%,rgba(0,0,0,0.60) 85%, rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0.80) 0%,rgba(0,0,0,0.75) 50%,rgba(0,0,0,0.60) 85%, rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+  }
+
+  #navbarNavDropdown.collapsing .navbar-nav,
+  #navbarNavDropdown.show .navbar-nav{
+    background:darkred;
+    padding:12px;
+  }
+
+/* le locandine Calendario */
+
+  
+  .locandina {
+    width: 15rem;
+    height: 30rem ;
+    margin: 4px;
+    position: relative;
+  }
+  
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto; 
+  }
+  
+  .debutto {
+    position: absolute;
+    z-index: 4;
+    transform: rotate(-20deg);
+    -webkit-animation: glow 2s ease-out infinite alternate;
+    -moz-animation: glow 2s ease-out infinite alternate;
+    animation: glow 2s ease-out infinite alternate;
+  }
+  
+  .cancellato {
+    position: absolute;
+    background-image: linear-gradient(transparent, black);
+    left: 5%;
+    right: 5%;
+    bottom: 10px;
+    z-index: 2;
+    height:auto;
+    }
+  
+  .cancellato > span {
+    color: white;
+    align-self: flex-end;
+  }
+  
+  .annullato {
+    text-decoration: line-through;
+  }
+  
+  .spostato{
+      border: 1px solid goldenrod;
+      border-radius: 10px;
+      margin-bottom: 1px;
+  }
+  .spostato > .badge{
+    background-color:goldenrod;
+    border-radius: 5px;
+  }
+  
+    .nonspostato > .badge{
+    display:none;
+  }
+
+
+
+ /* For footer */
+
+ #sfondofooter {
+    width:100%;
+    z-index:123;
+    padding-top:40px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+    background: -moz-linear-gradient(bottom,  rgba(0,0,0,0.80) 0%,rgba(0,0,0,0.40) 80%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(bottom,  rgba(0,0,0,0.80) 0%,rgba(0,0,0,0.40) 80%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to top,  rgba(0,0,0,0.80) 0%, rgba(0,0,0,0.40) 80%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+  }
+  .rossobianco {
+    color:crimson;
+    text-decoration: none;
+  }
+
+  .rossobianco:hover {
+    color:#fff;
+  }
+    
+
+  /* For style locandina: */
+
+  .textnevi  {
+ color: lightblue;
+}
+
+.btn-nevi {
+  background-color: lightblue; /* lightblue */
+  border: none;
+  color: black;
+  font-size: 12px;
+  padding: 15px 18px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.btn-nevi:hover {
+  background-color: lightblue; /* lightblue */
+  border: none;
+  color: white;
+
+}
+
+.textlibri  {
+  color: plum;
+ }
+ 
+ .btn-libri {
+   background-color: plum; /* plum */
+   border: none;
+   color: black;
+   font-size: 12px;
+   padding: 15px 18px;
+   border-radius: 10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   margin: 4px 2px;
+   cursor: pointer;
+   transition-duration: 0.4s;
+ }
+ .btn-libri:hover {
+   background-color: plum; /* plum */
+   border: none;
+   color: white;
+ 
+ }
+
+  /* For mobile phones: */
+
+@media only screen and (max-width: 800px) {
+
+.schermo {
+ display: none;
+ }
+.cellulare {
+    display: block;
+ }
+.cornice{
+  margin:0 4%;
+}
+.locandina {
+  width: 200px;
+}
+}
