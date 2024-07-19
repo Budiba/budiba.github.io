@@ -30,7 +30,7 @@
     <div id="BackgroundNavigation">
         <nav role="navigation">
             <div class="py-3 text-center border-bottom">
-                <img src="/img/Logo_BBB_bianco.png" alt="" class="invert">
+                <a class="nav-link zoom" aria-current="page" href="/Home.html"><img src="/img/Logo_BBB_bianco.png" alt="" class="invert"></a>
             </div>
         </nav>
         <div id="TrueNavigation" class="navbar-expand-md ">
@@ -44,7 +44,10 @@
             <div class="text-center mt-3 collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mx-auto ">
                     <li class="nav-item">
-                        <a class="nav-link zoom" aria-current="page" href="Home.html"><b>Calendario</b></a>
+                        <a class="nav-link zoom" aria-current="page" href="/Home.html"><b>Main</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link zoom" href="Index.html">Calendario</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link  zoom" href="/Spettacoli.html">Spettacoli</a>
@@ -64,128 +67,6 @@
     </div>
 
     <div class="spazio"></div>
-
-    <script type="text/javascript" src="json/repliche.jsonl"></script>
-    <script>
-
-        function repliche_sort(b, a) {
-            return new Date(b.data).getTime() - new Date(a.data).getTime();
-        }
-        repliche.sort(repliche_sort);
-
-        for (var i = 0; i < repliche.length; i++) {
-            var obj = repliche[i];
-
-            function CompareDate() {
-                var todayDate = new Date(); //Today Date    
-                var dateJason = new Date(obj.data);
-                var yesterday = new Date(Date.now() - 864e5);
-
-                if (dateJason > todayDate) {
-                    document.write("");
-                } else if (dateJason < yesterday) {
-                    document.write("");
-                } else if (dateJason < todayDate) {
-                    document.write("<br><div class='cornice' data-aos='zoom-in'> <div> <h1 class='titolo' style='font-family: Milonga, serif;' >Oggi in scena!</h1><hr><div class='row d-flex justify-content-center'><div class='col schermo text-center'><img src='img/" + obj.show[1] + "' class='img-fluid rounded'></div><div class='col col-lg-6 col-xl-8'> <div class='card text-center justify-content-center p-2 h-100'><span class='" + obj.status[0] + " rounded-pill p-2 schermo'><h1><i class='bi bi-stars'></i>Debutto<i class='bi bi-stars'></i></h1></span><img src='img/" + obj.show[1] + "' class='img-fluid cellulare rounded m-2'> <h2 class='display-4 schermo' style='font-family:Milonga';><strong>" + obj.show[0] + "</strong></h2><h6 class='card-subtitle text-body-secondary schermo'> <em>" + obj.show[5] + "</em></h6><h4><br>Oggi (" + obj.meet[0] + ") <br> alle ore:<strong>" + obj.meet[1] + "</strong><br><br><p><strong>" + obj.meet[2] + "</strong><br><em>" + obj.adress[0] + "</em><br>" + obj.adress[1] + "</p><button class='btnbudiba' type='button' data-bs-toggle='collapse' data-bs-target='#luogo" + obj.show[3] + obj.id + "' aria-expanded='false' aria-controls='luogo" + obj.show[3] + obj.id + "'><small>Clicca per vedere la posizione su Googlemap</small></button><br><div class='collapse' id='luogo" + obj.show[3] + obj.id + "'><br><div class='card card-body overflow-auto'>" + obj.google[0] + " style='border:0;'allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe></div></div></div><div class='col col-sm-3 col-md-3 schermo'></div></div></div></div><hr></div>");
-                } else {
-                    document.write("<p>problemi</p>");
-                }
-            } CompareDate();
-        }
-    </script>
-
-
-    <br>
-
-    <div class="cornice" data-aos='zoom-in'>
-        <h1 class='titolo' style='font-family: Milonga, serif;'>Le nostre prossime date</h1>
-        <hr>
-        <div class="row">
-            <div class='col cellulare'>
-                <div class="locandina card" style="width:22rem; overflow: auto; ">
-                    <div class='card-body '>
-                        <script type="text/javascript" src="json/repliche.jsonl"></script>
-                        <script>
-
-                            function repliche_sort(b, a) {
-                                return new Date(b.data).getTime() - new Date(a.data).getTime();
-                            }
-                            repliche.sort(repliche_sort);
-
-                            for (var i = 0; i < repliche.length; i++) {
-                                var obj = repliche[i];
-
-                                function CompareDate() {
-                                    var todayDate = new Date(); //Today Date    
-                                    var dateJason = new Date(obj.data);
-                                    var yesterday = new Date(Date.now() - 864e5);
-
-                                    if (dateJason > todayDate) {
-                                        document.write("<h6 class='card-text'><strong>" + obj.show[0] + "</strong></h6><p><small>" + obj.meet[0] + ", ore " + obj.meet[1] + "</p><p>" + obj.meet[2] + "<br><em>" + obj.adress[0] + "</em><br>" + obj.adress[1] + "</small></p><hr>");
-                                    } else if (dateJason < yesterday) {
-                                        document.write("");
-                                    } else if (dateJason < todayDate) {
-                                        document.write("");
-                                    } else {
-                                        document.write("<p>problemi</p>");
-                                    }
-                                } CompareDate();
-                            }
-                        </script>
-                    </div>
-                </div>
-            </div>
-            <div class="col schermo justify-content-end">
-                <div class="d-flex flex-wrap" style="overflow-x: auto;">
-                    <script type="text/javascript" src="json/repliche.jsonl"></script>
-                    <script>
-
-                        function repliche_sort(b, a) {
-                            return new Date(b.data).getTime() - new Date(a.data).getTime();
-                        }
-                        repliche.sort(repliche_sort);
-
-                        for (var i = 0; i < repliche.length; i++) {
-                            var obj = repliche[i];
-
-                            function CompareDate() {
-                                var todayDate = new Date(); //Today Date    
-                                var dateJason = new Date(obj.data);
-                                var yesterday = new Date(Date.now() - 864e5);
-
-                                if (dateJason > todayDate) {
-                                    document.write("<div class='locandina card zoom'><span class='" + obj.status[0] + " rounded-pill p-2'><h4><i class='bi bi-stars'></i>Debutto<i class='bi bi-stars'></i></h4></span><div class='" + obj.status[1] + " p-2 card-img-overlay rounded'><span><h5>Spettacolo annullato</h5></span></div><a href='Spettacoli.html" + obj.show[4] + "'> <img class='card-img-top img-fluid rounded' src='/img/" + obj.show[2] + "'alt='copertina " + obj.show[0] + "'> </a><div class='card-body text-center'><div class='" + obj.status[2] + " rounded'><span class='badge'><em><small>Nuova data:</small></em></span><p class='card-text'><strong>" + obj.meet[0] + "</strong><br>Ore " + obj.meet[1] + "</p></div><hr><div class='" + obj.status[3] + " rounded'><span class='badge'><em><small>Nuova location:</small></em></span><p><strong>" + obj.meet[2] + "</strong><br><em>" + obj.adress[0] + "</em><br>" + obj.adress[1] + "</p></div> <button class='btnbudiba' type='button' data-bs-toggle='collapse' data-bs-target='#luogo" + obj.show[3] + obj.id + "' aria-expanded='false' aria-controls='luogo" + obj.show[3] + obj.id + "'><small>Clicca per Googlemap</small></button><div class='collapse' id='luogo" + obj.show[3] + obj.id + "'><div class='card card-body overflow-auto'>" + obj.google[0] + " style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe></div></div></div></div>");
-                                } else if (dateJason < yesterday) {
-                                    document.write("");
-                                } else if (dateJason < todayDate) {
-                                    document.write("");
-                                } else {
-                                    document.write("<p>problemi</p>");
-                                }
-                            } CompareDate();
-
-                        }
-                    </script>
-                    <div class="locandina card ">
-                        <div class='card-body text-center'>
-                            <p class='card-text'><strong> Per adesso è tutto!<br></strong><em> Ci saranno senz'altro
-                                    altre occasioni per vedere <br>"<b><span style=color:crimson;>I Burattini di Babette
-                                            &
-                                            Bazzan</span></b>"</em></p>
-                            <img class="card-img-bottom" src="/img/Saluto.jpg" alt="Card image cap">
-                            <br>
-                            <p>Non vediamo l'ora di conoscervi!</p>
-                            <img class="card-img-bottom" src="/img/Bollo_vuoto_Budiba_nero.png" alt="logo"
-                                style="width:3rem;">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr>
-    </div>
-    <br>
-    <br>
     <div class="cornice" data-aos='zoom-in'>
         <h1 class='titolo' style='font-family: Milonga, serif;'>Dicono di noi</h1>
         <hr>
