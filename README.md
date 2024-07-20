@@ -1,1 +1,2 @@
-https://budiba.github.io/Index.html
+window.location.replace("https://budiba.github.io/Index.html");
+l
