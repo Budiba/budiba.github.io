@@ -1,7 +1,7 @@
 var repliche = [{
     "id":1,
     "order":1,
-    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni1.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
+    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.jpg","regina/LocCalAni1.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2024-05-17",
     "meet":["17 maggio 2024","21.00","Abitazione privata"], 
     "adress":["via Donizzetti 12","Desenzano del Garda (BS)"],
@@ -10,7 +10,7 @@ var repliche = [{
     },{
    "id":2,
    "order":1,
-    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni2.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
+    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.jpg","regina/LocCalAni2.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2024-05-30",
     "meet":["30 maggio 2024","18.00","Abitazione privata"], 
     "adress":["via Donizzetti, 12","Desenzano del Garda (BS)"],
@@ -19,7 +19,7 @@ var repliche = [{
     },{
     "id":3,
     "order":1,
-    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni3.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
+    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.jpg","regina/LocCalAni3.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2024-08-02",
     "meet":["2 agosto 2024","21.00","Castel Cerreto"], 
     "adress":["Via Canonica, 150","Treviglio (BG)"],
@@ -28,7 +28,7 @@ var repliche = [{
     },{
     "id":4,
     "order":1,
-    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni1.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
+    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.jpg","regina/LocCalAni1.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2024-07-26",
     "meet":["26 luglio 2024","21.00","Casa delle associazioni (Villa Nicoli)"], 
     "adress":["Via Don Arturo Bietti, 25","Fornovo San Giovanni (BG)"],
@@ -37,7 +37,7 @@ var repliche = [{
     },{
     "id":5,
     "order":1,
-    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni2.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
+    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.jpg","regina/LocCalAni2.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2024-07-22",
     "meet":["22 luglio 2024","18.00","Abitazione privata"], 
     "adress":["via Donizzetti, 12","Desenzano del Garda (BS)"],
@@ -46,7 +46,7 @@ var repliche = [{
     },{
     "id":6,
     "order":1,
-    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni3.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
+    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.jpg","regina/LocCalAni3.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2024-11-10",
     "meet":["10 novembre 2024","16.00","Oratorio Paolo VI"], 
     "adress":["Via Europa, 37/F","Villa di Salò (BS)"],
@@ -55,7 +55,7 @@ var repliche = [{
     },{
     "id":7,
     "order":1,
-    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni1.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
+    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.jpg","regina/LocCalAni1.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2024-12-01",
     "meet":["1 dicembre 2024","16.00","da definire"], 
     "adress":["da definire","Roè Volciano (BS)"],
@@ -64,12 +64,12 @@ var repliche = [{
     },{
      "id":8,
     "order":1,
-    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.png","regina/LocCalAni2.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
-    "data":"2024-09-08",
-    "meet":["8 settembre 2024","18.00","da definire"], 
-     "adress":["da definire","Urago Mella (BS)"],
+    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.jpg","regina/LocCalAni2.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
+    "data":"2024-09-07",
+    "meet":["7 settembre 2024","17.30","Centro Don Brusimelli"], 
+     "adress":["Via della Chiesa, 69","Brescia"],
     "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
-    "google":["<iframe src=''"], 
+    "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5586.684687523525!2d10.198864899999998!3d45.563553799999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478177025c7b8723%3A0xd3d7149d361852a3!2sCircolo%20ACLI%20Urago%20Mella!5e0!3m2!1sit!2sit!4v1724142334745!5m2!1sit!2sit'"], 
     }
 
 
