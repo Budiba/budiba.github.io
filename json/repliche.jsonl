@@ -67,7 +67,7 @@ var repliche = [{
     "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.jpg","regina/LocCalAni2.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2024-09-07",
     "meet":["7 settembre 2024","17.30","Centro Don Brusimelli"], 
-     "adress":["Via della Chiesa, 69","Brescia"],
+     "adress":["Via della Chiesa, 69","Urago Mella (BS)"],
     "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5586.684687523525!2d10.198864899999998!3d45.563553799999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478177025c7b8723%3A0xd3d7149d361852a3!2sCircolo%20ACLI%20Urago%20Mella!5e0!3m2!1sit!2sit!4v1724142334745!5m2!1sit!2sit'"], 
     }
