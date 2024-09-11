@@ -253,7 +253,7 @@
                 briganti! ..ed un coniglio piuttosto saccente. </p>
               <hr>
               <p><b>Genere:</b> commedia avventurosa <br>
-                <b>Durata:</b> 1 ora circa<br>
+                <b>Durata:</b> 1 ora e 10 min. circa<br>
                 <b>Lingua:</b> italiano <br>
                 <b>Interpreti:</b> due <br>
                 <b>Personaggi:</b> 22 <br>
@@ -294,7 +294,7 @@
                   <div class='card-body flex-wrap '>
                     <script type="text/javascript" src="json/repliche.jsonl"></script>
                     <script>
-                      function repliche_sort(b, a) {
+                      function repliche_sort(a, b) {
                         return new Date(b.data).getTime() - new Date(a.data).getTime();
                       }
                       repliche.sort(repliche_sort);
@@ -308,7 +308,7 @@
                           var yesterday = new Date(Date.now() - 864e5);
 
                           if ((dateJason < yesterday) && (obj.order == 1)) {
-                            document.write("<div><p class='card-text'>" + obj.meet[0] + ", " + obj.meet[2] + "<br>" + obj.adress[1] + "</p><hr></div>");
+                            document.write("<div><p>" + obj.meet[0] + ", " + obj.meet[2] + "<br>" + obj.adress[1] + "</p><hr></div>");
                           } else {
                             document.write("");
                           }
