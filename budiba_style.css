@@ -253,11 +253,11 @@ h2 {
 }
 
 .textlibri  {
-  color: plum;
+  color: papayawhip;
  }
  
  .btn-libri {
-   background-color: plum; /* plum */
+   background-color: papayawhip; /* plum */
    border: none;
    color: black;
    font-size: 12px;
@@ -271,7 +271,7 @@ h2 {
    transition-duration: 0.4s;
  }
  .btn-libri:hover {
-   background-color: plum; /* plum */
+   background-color: papayawhip; /* plum */
    border: none;
    color: white;
  
