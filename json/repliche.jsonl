@@ -79,7 +79,16 @@ var repliche = [{
     "adress":["Via Piave","Nogarole Rocca (VE)"],
     "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
     "google":["<iframe src=''"],
-     }
+    },{
+    "id":10,
+    "order":1,
+    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.jpg","regina/LocCalAni2.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
+    "data":"2024-12-14",
+    "meet":["14 dicembre 2024","da definire","da definire"], 
+    "adress":["da definire","Bedizzole (BS)"],
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
+    "google":["<iframe src=''"],
+    }
 
 
     ];
