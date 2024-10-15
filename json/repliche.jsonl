@@ -73,7 +73,7 @@ var repliche = [{
     },{
     "id":9,
     "order":1,
-    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.jpg","regina/LocCalAni1.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
+    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.jpg","regina/LocCalAni3.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2024-09-15",
     "meet":["15 settembre 2024","15.30","Parco della Rocca"], 
     "adress":["Via Piave","Nogarole Rocca (VE)"],
@@ -82,13 +82,29 @@ var repliche = [{
     },{
     "id":10,
     "order":1,
-    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.jpg","regina/LocCalAni2.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
+    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.jpg","regina/LocCalAni1.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2024-12-14",
     "meet":["14 dicembre 2024","da definire","da definire"], 
     "adress":["da definire","Bedizzole (BS)"],
     "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
     "google":["<iframe src=''"],
+    },{
+    "id":11,
+    "order":1,
+    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.jpg","regina/LocCalAni2.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
+    "data":"2024-12-15",
+    "meet":["15 dicembre 2024","pomeridiane","Villa Nogarola"], 
+    "adress":["via Castello, 26","Castel d'Azzano (VR)"],
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
+    "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11215.076976107022!2d10.934642554946663!3d45.353470187152794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477f60273cb807ef%3A0xf41b3531ceb8f56!2sVilla%20Nogarola%2C%2037060%20Beccacivetta-azzano%20VR!5e0!3m2!1sit!2sit!4v1729007510907!5m2!1sit!2sit'"],
+    },{
+    "id":12,
+    "order":1,
+    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.jpg","regina/LocCalAni3.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
+    "data":"2024-12-22",
+    "meet":["22 dicembre 2024","da definiree","da definire"], 
+    "adress":["da definire","Folzano (BS)"],
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
+    "google":["<iframe src=''"],
     }
-
-
     ];
