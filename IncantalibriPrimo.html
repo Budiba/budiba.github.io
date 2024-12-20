@@ -300,7 +300,7 @@
                           var dateJason = new Date(obj.data);
                           var yesterday = new Date(Date.now() - 864e5);
 
-                          if ((dateJason < yesterday) && (obj.order == 2)) {
+                          if ((dateJason < yesterday) && (obj.order == 3)) {
                             document.write("<div><p class='card-text'>" + obj.meet[0] + ", " + obj.meet[2] + "<br>" + obj.adress[1] + "</p><hr></div>");
                           } else {
                             document.write("");

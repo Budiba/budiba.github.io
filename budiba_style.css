@@ -231,7 +231,11 @@ h2 {
  color: lightblue;
 }
 
-.btn-nevi {
+.textmarzapane {
+  color: plum;
+ }
+
+ .btn-nevi {
   background-color: lightblue; /* lightblue */
   border: none;
   color: black;
@@ -251,6 +255,29 @@ h2 {
   color: white;
 
 }
+
+.btn-marzapane {
+  background-color: plum; /* lightblue */
+  border: none;
+  color: black;
+  font-size: 12px;
+  padding: 15px 18px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.btn-marzapane:hover {
+  background-color: plum; /* lightblue */
+  border: none;
+  color: white;
+
+}
+
+
 
 .textlibri  {
   color: papayawhip;
