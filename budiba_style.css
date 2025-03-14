@@ -201,6 +201,10 @@ h2 {
     display:none;
   }
 
+  .nonriservato{
+    display:none;
+}
+
 
 
  /* For footer */
