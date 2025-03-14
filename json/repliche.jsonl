@@ -5,7 +5,7 @@ var repliche = [{
     "data":"2024-05-17",
     "meet":["17 maggio 2024","21.00","Abitazione privata"], 
     "adress":["via Donizzetti 12","Desenzano del Garda (BS)"],
-    "status": ["debutto d-block","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
+    "status": ["debutto d-block","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.552597240383!2d10.552534690881886!3d45.458671159232935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478194fbe37f50eb%3A0xaa2a89df28e168ea!2sVia%20Donizetti%2C%2012%2C%2025015%20Desenzano%20del%20Garda%20BS!5e0!3m2!1sit!2sit!4v1705162490366!5m2!1sit!2sit'"],
     },{
    "id":2,
@@ -14,7 +14,7 @@ var repliche = [{
     "data":"2024-05-30",
     "meet":["30 maggio 2024","18.00","Abitazione privata"], 
     "adress":["via Donizzetti, 12","Desenzano del Garda (BS)"],
-    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.552597240383!2d10.552534690881886!3d45.458671159232935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478194fbe37f50eb%3A0xaa2a89df28e168ea!2sVia%20Donizetti%2C%2012%2C%2025015%20Desenzano%20del%20Garda%20BS!5e0!3m2!1sit!2sit!4v1705162490366!5m2!1sit!2sit'"],
     },{
     "id":3,
@@ -23,7 +23,7 @@ var repliche = [{
     "data":"2024-08-02",
     "meet":["2 agosto 2024","21.00","Castel Cerreto"], 
     "adress":["Via Canonica, 150","Treviglio (BG)"],
-    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.2842569113186!2d9.5676484!3d45.544607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47814a2d290449a7%3A0x350be86ca46a5ce9!2sCastel%20Cerreto%20Soc.%20Coop.%20Agricola!5e0!3m2!1sit!2sit!4v1716734473115!5m2!1sit!2sit'"], 
     },{
     "id":4,
@@ -32,7 +32,7 @@ var repliche = [{
     "data":"2024-07-26",
     "meet":["26 luglio 2024","21.00","Casa delle associazioni (Villa Nicoli)"], 
     "adress":["Via Don Arturo Bietti, 25","Fornovo San Giovanni (BG)"],
-    "status": ["debutto d-block","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
+    "status": ["debutto d-block","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.6435715995785!2d9.680009676631318!3d45.49712183124101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478147f46f9f7bfb%3A0xadbdbd8871119ffe!2sVia%20Don%20A.%20Bietti%2C%2025%2C%2024040%20Fornovo%20San%20Giovanni%20BG!5e0!3m2!1sit!2sit!4v1721252066565!5m2!1sit!2sit'"], 
     },{
     "id":5,
@@ -41,7 +41,7 @@ var repliche = [{
     "data":"2024-07-22",
     "meet":["22 luglio 2024","18.00","Abitazione privata"], 
     "adress":["via Donizzetti, 12","Desenzano del Garda (BS)"],
-    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.552597240383!2d10.552534690881886!3d45.458671159232935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478194fbe37f50eb%3A0xaa2a89df28e168ea!2sVia%20Donizetti%2C%2012%2C%2025015%20Desenzano%20del%20Garda%20BS!5e0!3m2!1sit!2sit!4v1705162490366!5m2!1sit!2sit'"],
     },{
     "id":6,
@@ -50,7 +50,7 @@ var repliche = [{
     "data":"2024-11-10",
     "meet":["10 novembre 2024","16.00","Oratorio Paolo VI"], 
     "adress":["Via Europa, 37/F","Villa di Salò (BS)"],
-    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2791.9715468680815!2d10.506450976635286!3d45.59111672496125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47818e4a0c959e05%3A0x20d03787264a6600!2sOratorio%20San%20Paolo%20VI!5e0!3m2!1sit!2sit!4v1720172291701!5m2!1sit!2sit'"], 
     },{
     "id":7,
@@ -59,7 +59,7 @@ var repliche = [{
     "data":"2024-12-01",
     "meet":["1 dicembre 2024","16.00","Auditorium delle scuole"], 
     "adress":["Via Verdi, 4","Roè Volciano (BS)"],
-    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d697.6081936974726!2d10.49738832936096!3d45.622041700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d45.622080156058125!2d10.49798646193491!5e0!3m2!1sit!2sit!4v1730719488051!5m2!1sit!2sit'"],
     },{
     "id":8,
@@ -68,7 +68,7 @@ var repliche = [{
     "data":"2024-09-07",
     "meet":["7 settembre 2024","17.30","Centro Don Brusimelli"], 
     "adress":["Via della Chiesa, 69","Urago Mella (BS)"],
-    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5586.684687523525!2d10.198864899999998!3d45.563553799999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478177025c7b8723%3A0xd3d7149d361852a3!2sCircolo%20ACLI%20Urago%20Mella!5e0!3m2!1sit!2sit!4v1724142334745!5m2!1sit!2sit'"], 
     },{
     "id":9,
@@ -77,7 +77,7 @@ var repliche = [{
     "data":"2024-09-15",
     "meet":["15 settembre 2024","15.30","Parco della Rocca"], 
     "adress":["Via Piave","Nogarole Rocca (VE)"],
-    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src=''"],
     },{
     "id":10,
@@ -86,7 +86,7 @@ var repliche = [{
     "data":"2024-12-14",
     "meet":["14 dicembre 2024","da 16.30","Teatro Oratorio Don Bosco"], 
     "adress":["Via Monte Grappa","Bedizzole (BS)"],
-    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.9667825888055!2d10.41721897232127!3d45.510747300000034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47819a05b5b636b5%3A0xe7ad45ed18e055f0!2sVia%20Monte%20Grappa%2C%2025081%20Bedizzole%20BS!5e0!3m2!1sit!2sit!4v1730886546216!5m2!1sit!2sit'"],
     },{
     "id":11,
@@ -95,7 +95,7 @@ var repliche = [{
     "data":"2024-12-15",
     "meet":["15 dicembre 2024","16.30","Villa Nogarola"], 
     "adress":["via Castello, 26","Castel d'Azzano (VR)"],
-    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11215.076976107022!2d10.934642554946663!3d45.353470187152794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477f60273cb807ef%3A0xf41b3531ceb8f56!2sVilla%20Nogarola%2C%2037060%20Beccacivetta-azzano%20VR!5e0!3m2!1sit!2sit!4v1729007510907!5m2!1sit!2sit'"],
     },{
     "id":12,
@@ -104,7 +104,7 @@ var repliche = [{
     "data":"2024-12-22",
     "meet":["22 dicembre 2024","15.00","Oratorio San Giovanni Bosco"], 
     "adress":["Piazza Don Franco Bettinsoli","Folzano (BS)"],
-    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.751700376067!2d10.202775076631198!3d45.49494463138634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478175bd34b61ea9%3A0x697def5d295dcbb!2sOratorio%20San%20Giovanni%20Bosco%20-%20Folzano!5e0!3m2!1sit!2sit!4v1730718791746!5m2!1sit!2sit'"],
     },{
     "id":13,
@@ -113,7 +113,7 @@ var repliche = [{
     "data":"2024-12-08",
     "meet":["8 dicembre 2024","16.30","Sala Civica Barbarani"], 
     "adress":["Via Guglielmo Marconi, 5","San Bonifacio (VR)"],
-    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2801.497823336128!2d11.295125076270468!3d45.39929997107302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDXCsDIzJzU3LjUiTiAxMcKwMTcnNTEuNyJF!5e0!3m2!1sit!2sit!4v1729759274436!5m2!1sit!2sit'"],
     },{
     "id":14,
@@ -122,7 +122,7 @@ var repliche = [{
     "data":"2025-01-18",
     "meet":["18 gennaio 2025","16.30","Sala Civica Barbarani"], 
     "adress":["Via Guglielmo Marconi, 5","San Bonifacio (VR)"],
-    "status": ["debutto d-block","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
+    "status": ["debutto d-block","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2801.497823336128!2d11.295125076270468!3d45.39929997107302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDXCsDIzJzU3LjUiTiAxMcKwMTcnNTEuNyJF!5e0!3m2!1sit!2sit!4v1729759274436!5m2!1sit!2sit'"],
     },{
     "id":15,
@@ -131,7 +131,7 @@ var repliche = [{
     "data":"2025-04-16",
     "meet":["16 aprile 2025","16.00","Oratorio 'Castello'"], 
     "adress":["Via San Carlo Borromeo, 1","Castiglione delle Stiviere (MN)"],
-    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d832.9963412817905!2d10.49190119737228!3d45.39210481245285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4781be657db8726d%3A0xb4039d0a5e348ade!2sVia%20S.%20Carlo%20Borromeo%2C%201%2C%2046043%20Castiglione%20delle%20Stiviere%20MN!5e0!3m2!1sit!2sit!4v1740135439151!5m2!1sit!2sit'"],
     },{
     "id":16,
@@ -140,7 +140,7 @@ var repliche = [{
     "data":"2025-04-09",
     "meet":["09 aprile 2025","14.15","Teatro comunale"], 
     "adress":["Piazza Migliavacca, 2","Vobarno (BS)"],
-    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","riservato","Spettacolo riservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d697.3059020464625!2d10.502591208449354!3d45.646331079861675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47818f35a6cd7367%3A0xfbc88023d6b8c4b9!2sTeatro%20comunale!5e0!3m2!1sit!2sit!4v1741949919403!5m2!1sit!2sit'"],
     },{
     "id":17,
@@ -149,7 +149,7 @@ var repliche = [{
     "data":"2025-04-10",
     "meet":["10 aprile 2025","9.30","Teatro comunale"], 
     "adress":["Piazza Migliavacca, 2","Vobarno (BS)"],
-    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","riservato","Spettacolo riservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d697.3059020464625!2d10.502591208449354!3d45.646331079861675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47818f35a6cd7367%3A0xfbc88023d6b8c4b9!2sTeatro%20comunale!5e0!3m2!1sit!2sit!4v1741949919403!5m2!1sit!2sit'"],
      },{
     "id":18,
@@ -158,7 +158,7 @@ var repliche = [{
     "data":"2025-04-10",
     "meet":["10 aprile 2025","14.00","Teatro comunale"], 
     "adress":["Piazza Migliavacca, 2","Vobarno (BS)"],
-    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none"],  
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","riservato","Spettacolo riservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d697.3059020464625!2d10.502591208449354!3d45.646331079861675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47818f35a6cd7367%3A0xfbc88023d6b8c4b9!2sTeatro%20comunale!5e0!3m2!1sit!2sit!4v1741949919403!5m2!1sit!2sit'"],
     }    
     ];
