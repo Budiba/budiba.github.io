@@ -30,7 +30,8 @@
     <div id="BackgroundNavigation">
         <nav role="navigation">
             <div class="py-3 text-center border-bottom">
-                <a class="nav-link zoom" aria-current="page" href="Home.html"><img src="/img/Logo_BBB_bianco.png" alt="" class="invert"></a>
+                <a class="nav-link zoom" aria-current="page" href="Home.html"><img src="/img/Logo_BBB_bianco.png" alt=""
+                        class="invert"></a>
             </div>
         </nav>
         <div id="TrueNavigation" class="navbar-expand-md ">
@@ -57,7 +58,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link zoom" href="/Chisiamo.html">Storia di Famiglia</a>
-                    </li>  
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link zoom" href="/Contatti.html">Contatti</a>
                     </li>
@@ -89,7 +90,7 @@
                 } else if (dateJason < todayDate) {
                     document.write("");
                 } else if (dateJason > yesterday) {
-                    document.write("<br><div class='cornice' data-aos='zoom-in'> <div> <h1 class='titolo' style='font-family: Milonga, serif;' >Oggi in scena!</h1><hr><div class='row d-flex justify-content-center'><div class='col schermo text-center'><img src='img/" + obj.show[1] + "' class='img-fluid rounded'></div><div class='col col-lg-6 col-xl-8'> <div class='card text-center justify-content-center p-2 h-100'><span class='" + obj.status[0] + " rounded-pill p-2 schermo'><h1><i class='bi bi-stars'></i>Debutto<i class='bi bi-stars'></i></h1></span><img src='img/" + obj.show[1] + "' class='img-fluid cellulare rounded m-2'> <h2 class='display-4 schermo' style='font-family:Milonga';><strong>" + obj.show[0] + "</strong></h2><h6 class='card-subtitle text-body-secondary schermo'> <em>" + obj.show[5] + "</em></h6><h4><br>Oggi (" + obj.meet[0] + ") <br> alle ore:<strong>" + obj.meet[1] + "</strong><br><br><p><strong>" + obj.meet[2] + "</strong><br><em>" + obj.adress[0] + "</em><br>" + obj.adress[1] + "</p><button class='btnbudiba' type='button' data-bs-toggle='collapse' data-bs-target='#luogo" + obj.show[3] + obj.id + "' aria-expanded='false' aria-controls='luogo" + obj.show[3] + obj.id + "'><small>Clicca per vedere la posizione su Googlemap</small></button><br><div class='collapse' id='luogo" + obj.show[3] + obj.id + "'><br><div class='card card-body overflow-auto'>" + obj.google[0] + " style='border:0;'allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe></div></div></div><div class='col col-sm-3 col-md-3 schermo'></div></div></div></div><hr></div>");
+                    document.write("<br><div class='cornice' data-aos='zoom-in'> <div> <h1 class='titolo' style='font-family: Milonga, serif;'>Oggi in scena!</h1><hr><div class='row d-flex justify-content-center'><div class='col schermo text-center'><img src='img/" + obj.show[1] + "' class='img-fluid rounded'></div><div class='col col-lg-6 col-xl-8'> <div class='card text-center justify-content-center p-2 h-100'><span class='" + obj.status[0] + " rounded-pill p-2 schermo'><h1><i class='bi bi-stars'></i>Debutto<i class='bi bi-stars'></i></h1></span><img src='img/" + obj.show[1] + "' class='img-fluid cellulare rounded m-2'> <h2 class='display-4 schermo' style='font-family:Milonga';><strong>" + obj.show[0] + "</strong></h2><h6 class='card-subtitle text-body-secondary schermo'> <em>" + obj.show[5] + "</em></h6><h4><br>Oggi (" + obj.meet[0] + ") <br> alle ore:<strong>" + obj.meet[1] + "</strong><br><span class='"+ obj.status[5] +"' style='color:red;'>"+ obj.status[6] +"</span><br><p><strong>" + obj.meet[2] + "</strong><br><em>" + obj.adress[0] + "</em><br>" + obj.adress[1] + "</p><button class='btnbudiba' type='button' data-bs-toggle='collapse' data-bs-target='#luogo" + obj.show[3] + obj.id + "' aria-expanded='false' aria-controls='luogo" + obj.show[3] + obj.id + "'><small>Clicca per vedere la posizione su Googlemap</small></button><br><div class='collapse' id='luogo" + obj.show[3] + obj.id + "'><br><div class='card card-body overflow-auto'>" + obj.google[0] + " style='border:0;'allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe></div></div></div><div class='col col-sm-3 col-md-3 schermo'></div></div></div></div><hr></div>");
                 } else {
                     document.write("<p>problemi</p>");
                 }
@@ -124,7 +125,7 @@
                                     var yesterday = new Date(Date.now() - 864e5);
 
                                     if (dateJason > todayDate) {
-                                        document.write("<h6 class='card-text'><a href='" + obj.show[4] + "'><strong>" + obj.show[0] + "</strong></a></h6><p><small>" + obj.meet[0] + ", ore " + obj.meet[1] + "</p><p>" + obj.meet[2] + "<br><em>" + obj.adress[0] + "</em><br>" + obj.adress[1] + "</small></p><hr>");
+                                        document.write("<h6 class='card-text'><a href='" + obj.show[4] + "'><strong>" + obj.show[0] + "</strong></a></h6><span class='"+ obj.status[5] +"' style='color:red;'><small>"+ obj.status[6] +"</small></span><p><small>" + obj.meet[0] + ", ore " + obj.meet[1] + "</p><p>" + obj.meet[2] + "<br><em>" + obj.adress[0] + "</em><br>" + obj.adress[1] + "</small></p><hr>");
                                     } else if (dateJason < yesterday) {
                                         document.write("");
                                     } else if (dateJason < todayDate) {
@@ -157,7 +158,7 @@
                                 var yesterday = new Date(Date.now() - 864e5);
 
                                 if (dateJason > todayDate) {
-                                    document.write("<div class='locandina card zoom'><span class='" + obj.status[0] + " rounded-pill p-2'><h4><i class='bi bi-stars'></i>Debutto<i class='bi bi-stars'></i></h4></span><div class='" + obj.status[1] + " p-2 card-img-overlay rounded'><span><h5>Spettacolo annullato</h5></span></div><a href='" + obj.show[4] + "'> <img class='card-img-top img-fluid rounded' src='/img/" + obj.show[2] + "'alt='copertina " + obj.show[0] + "'> </a><div class='card-body text-center'><div class='" + obj.status[2] + " rounded'><span class='badge'><em><small>Nuova data:</small></em></span><p class='card-text'><strong>" + obj.meet[0] + "</strong><br>Ore " + obj.meet[1] + "</p></div><hr><div class='" + obj.status[3] + " rounded'><span class='badge'><em><small>Nuova location:</small></em></span><p><strong>" + obj.meet[2] + "</strong><br><em>" + obj.adress[0] + "</em><br>" + obj.adress[1] + "</p></div> <button class='btnbudiba' type='button' data-bs-toggle='collapse' data-bs-target='#luogo" + obj.show[3] + obj.id + "' aria-expanded='false' aria-controls='luogo" + obj.show[3] + obj.id + "'><small>Clicca per Googlemap</small></button><div class='collapse' id='luogo" + obj.show[3] + obj.id + "'><div class='card card-body overflow-auto'>" + obj.google[0] + " style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe></div></div></div></div>");
+                                    document.write("<div class='locandina card zoom'><span class='" + obj.status[0] + " rounded-pill p-2'><h4><i class='bi bi-stars'></i>Debutto<i class='bi bi-stars'></i></h4></span><div class='" + obj.status[1] + " p-2 card-img-overlay rounded'><span><h5>Spettacolo annullato</h5></span></div><a href='" + obj.show[4] + "'> <img class='card-img-top img-fluid rounded' src='/img/" + obj.show[2] + "'alt='copertina " + obj.show[0] + "'> </a><div class='card-body text-center'><span class='"+ obj.status[5] +"' style='color:red;'><small>"+ obj.status[6] +"</small></span><div class='" + obj.status[2] + " rounded'><span class='badge'><em><small>Nuova data:</small></em></span><p class='card-text'><strong>" + obj.meet[0] + "</strong><br>Ore " + obj.meet[1] + "</p></div><hr><div class='" + obj.status[3] + " rounded'><span class='badge'><em><small>Nuova location:</small></em></span><p><strong>" + obj.meet[2] + "</strong><br><em>" + obj.adress[0] + "</em><br>" + obj.adress[1] + "</p></div> <button class='btnbudiba' type='button' data-bs-toggle='collapse' data-bs-target='#luogo" + obj.show[3] + obj.id + "' aria-expanded='false' aria-controls='luogo" + obj.show[3] + obj.id + "'><small>Clicca per Googlemap</small></button><div class='collapse' id='luogo" + obj.show[3] + obj.id + "'><div class='card card-body overflow-auto'>" + obj.google[0] + " style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe></div></div></div></div>");
                                 } else if (dateJason < yesterday) {
                                     document.write("");
                                 } else if (dateJason < todayDate) {
@@ -187,46 +188,50 @@
         </div>
         <hr>
     </div>
-              
-              
 
 
 
 
-            <footer class="m-10 p-2 row" id="sfondofooter">
-                <div class="col text-end"> </div>
-                <div class="col col-lg-2 text-center">
-                    <img src="/img/Bollo_vuoto_budiba_bianco.png" style="height: 60px;">
-                    <br>
-                    <a class="rossobianco" href="mailto:budiba.burattini@gmail.com"><i class="bi bi-envelope-at-fill" ></i></a>
-                    <a class="rossobianco" href="https://www.facebook.com/profile.php?id=61558420320948"><i class="bi bi-facebook" ></i></a>
-                    <a class="rossobianco" href="https://www.youtube.com/channel/UCnygq3VxZnHo_JvDV3S2pnA"><i class="bi bi-youtube"></i></a>
-                    <a class="rossobianco" href="https://www.tiktok.com/@burattini_babette_bazzan"><i class="bi bi-tiktok"></i></a>
-                    <a class="rossobianco" href="https://www.instagram.com/burattini_babette_bazzan/"><i class="bi bi-instagram"></i></a>
-                    <a class="rossobianco" href="https://www.linkedin.com/in/fulvia-marai-2b80892b6/"><i class="bi bi-linkedin"></i></a>
-                </div>
-            </footer>
+
+
+    <footer class="m-10 p-2 row" id="sfondofooter">
+        <div class="col text-end"> </div>
+        <div class="col col-lg-2 text-center">
+            <img src="/img/Bollo_vuoto_budiba_bianco.png" style="height: 60px;">
+            <br>
+            <a class="rossobianco" href="mailto:budiba.burattini@gmail.com"><i class="bi bi-envelope-at-fill"></i></a>
+            <a class="rossobianco" href="https://www.facebook.com/profile.php?id=61558420320948"><i
+                    class="bi bi-facebook"></i></a>
+            <a class="rossobianco" href="https://www.youtube.com/channel/UCnygq3VxZnHo_JvDV3S2pnA"><i
+                    class="bi bi-youtube"></i></a>
+            <a class="rossobianco" href="https://www.tiktok.com/@burattini_babette_bazzan"><i
+                    class="bi bi-tiktok"></i></a>
+            <a class="rossobianco" href="https://www.instagram.com/burattini_babette_bazzan/"><i
+                    class="bi bi-instagram"></i></a>
+            <a class="rossobianco" href="https://www.linkedin.com/in/fulvia-marai-2b80892b6/"><i
+                    class="bi bi-linkedin"></i></a>
+        </div>
+    </footer>
 
     <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
     <script type="text/javascript">
         /* curator-feed-video-feed-layout */
-        (function(){
-        var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
-        i.src="https://cdn.curator.io/published/989763ca-7c06-4427-ae36-f16c1f80243e.js";
-        e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+        (function () {
+            var i, e, d = document, s = "script"; i = d.createElement("script"); i.async = 1; i.charset = "UTF-8";
+            i.src = "https://cdn.curator.io/published/989763ca-7c06-4427-ae36-f16c1f80243e.js";
+            e = d.getElementsByTagName(s)[0]; e.parentNode.insertBefore(i, e);
         })();
-        </script>           
+    </script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init({
-        easing: 'ease-out-back',
-        duration: 1000
-    });
-</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+    </script>
 </body>
-
 </html>
