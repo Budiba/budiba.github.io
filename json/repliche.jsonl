@@ -165,7 +165,7 @@ var repliche = [{
     "order":1,
     "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.jpg","regina/LocCalAni1.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2025-07-02",
-    "meet":["12 luglio 2025","21.00","Cortile del comune"], 
+    "meet":["2 luglio 2025","21.00","Cortile del comune"], 
     "adress":["Piazza Parolini, 32","Ponti sul Mincio (MN)"],
     "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.833126900653!2d10.68731537812656!3d45.41270451745874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4781e9f07a01e9a1%3A0x5bb178e37da28886!2sComune%20di%20Ponti%20sul%20Mincio!5e0!3m2!1sit!2sit!4v1745487144895!5m2!1sit!2sit'"],
