@@ -178,5 +178,14 @@ var repliche = [{
 "adress":["Viale F. Agello, 5","Rivoltella (BS)"],
 "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","riservato","<h5>Incontro per presentazione del libro</h5>"],  
 "google":["<iframe src='<https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5596.817458920727!2d10.562182390882747!3d45.46156975903963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478194e5803a971f%3A0x6cdb2a869ddcea16!2sVilla%20Brunati!5e0!3m2!1sit!2sit!4v1745497627055!5m2!1sit!2sit'"],
-    }    
+    },{
+        "id":21,
+        "order":2,
+        "show":["Hansel & Gretel","marzapane/Locandina_HG.jpg","marzapane/Loc_HG_1.gif","marzapane","/HanselGretel.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
+        "data":"2025-07-03",
+        "meet":["3 gluglio 2025","21.30",""], 
+        "adress":["","Curtatone (MN)"],
+        "status": ["debutto d-blnone","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
+        "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2813.6948756414868!2d10.712112076257059!3d45.15277697107051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDXCsDA5JzEwLjAiTiAxMMKwNDInNTIuOSJF!5e0!3m2!1sit!2sit!4v1747815115799!5m2!1sit!2sit'"],
+        }   
     ];
