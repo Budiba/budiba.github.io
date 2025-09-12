@@ -187,5 +187,14 @@ var repliche = [{
         "adress":["Piazza Corte Spagnola","Montanara Curtatone (MN)"],
         "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
         "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2814.707765647368!2d10.722831176615964!3d45.132257355524885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4781d307c16c5855%3A0x23fd2c08e27b380a!2sVia%20Corte%20Spagnola%2C%2046010%20Curtatone%20MN!5e0!3m2!1sit!2sit!4v1749823799079!5m2!1sit!2sit'"],
+        },{
+        "id":22,
+        "order":2,
+        "show":["Hansel & Gretel","marzapane/Locandina_HG.jpg","marzapane/Loc_HG_1.gif","marzapane","/HanselGretel.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
+        "data":"2026-01-11",
+        "meet":["11 gennaio 2026","16.30","Auditorium Comunale"], 
+        "adress":["Via Vittorio Alfieri n. 3","Sovizzo (VI)"],
+        "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
+        "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.1296280270935!2d11.440091276632579!3d45.52759692920593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477f365724c2187d%3A0x45033328b343a190!2sVia%20V.%20Alfieri%2C%203%2C%2036049%20Sovizzo%20VI!5e0!3m2!1sit!2sit!4v1757670704698!5m2!1sit!2sit'"],
         }   
     ];
