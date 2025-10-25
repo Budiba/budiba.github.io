@@ -199,11 +199,38 @@ var repliche = [{
         },{
     "id":23,
     "order":1,
-    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.jpg","regina/LocCalAni1.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
+    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.jpg","regina/LocCalAni2.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2025-12-27",
     "meet":["27 Dicembre 2025","16.30","Teatro Auditorium Duse"], 
     "adress":["Via Carpen, 53","Villanuova sul Clisi (BS)"],
     "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2791.700574022617!2d10.458976700000001!3d45.5965637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47818f80a4a25fb7%3A0xc2ff107afe6cc085!2sTeatro%20Auditorim%20Eleonora%20Duse!5e0!3m2!1sit!2sit!4v1759752684636!5m2!1sit!2sit'"],
-    }   
+    },{
+    "id":24,
+    "order":3,
+    "show":["I Tre Porcellini & il Lupo Cattivo","incantalibri/Locandina_A3_Incantalibri.jpg","incantalibri/Loc_Porc_1.png","inc","/IncantalibriPrimo.html","<a href='/Spettacoli.html#incantalibri'>Gli Incantalibri</a>"],
+    "data":"2026-01-03",
+    "meet":["03 Gennaio 2026","16.30","Sala Civica Barbarani"], 
+    "adress":["Via Guglielmo Marconi, 5","San Bonifacio (VR)"],
+    "status": ["debutto d-blok","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
+    "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2801.497823336128!2d11.295125076270468!3d45.39929997107302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDXCsDIzJzU3LjUiTiAxMcKwMTcnNTEuNyJF!5e0!3m2!1sit!2sit!4v1729759274436!5m2!1sit!2sit'"],
+    },{
+    "id":25,
+    "order":4,
+    "show":["Aladino e la Lampada Meravigliosa","aladino/Locandina_A3_aladino.jpg","aladino/Aladino_micro.jpg","aladino","/IncantalibriPrimo.html","<a href='/Spettacoli.html#incantalibri'>Gli Incantalibri</a>"],
+    "data":"2026-01-17",
+    "meet":["17 Gennaio 2026","16.30","Sala Civica Barbarani"], 
+    "adress":["Via Guglielmo Marconi, 5","San Bonifacio (VR)"],
+    "status": ["debutto d-blok","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
+    "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2801.497823336128!2d11.295125076270468!3d45.39929997107302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDXCsDIzJzU3LjUiTiAxMcKwMTcnNTEuNyJF!5e0!3m2!1sit!2sit!4v1729759274436!5m2!1sit!2sit'"],
+    } ,{
+    "id":26,
+    "order":1,
+    "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.jpg","regina/LocCalAni1.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
+    "data":"2025-12-21",
+    "meet":["21 Dicembre 2025","16.30","Sala polivalente"], 
+    "adress":["Piazza della Pace","Casaleone (VR)"],
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
+    "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2812.7654422594865!2d11.198750376617674!3d45.17159945291357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477f7250cf6b8c6d%3A0x33007b033605b30a!2sScuola%20Media%20Statale!5e0!3m2!1sit!2sit!4v1761212638612!5m2!1sit!2sit'"],
+    }     
     ];
