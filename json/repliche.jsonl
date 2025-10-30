@@ -223,7 +223,7 @@ var repliche = [{
     "adress":["Via Guglielmo Marconi, 5","San Bonifacio (VR)"],
     "status": ["debutto d-blok","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2801.497823336128!2d11.295125076270468!3d45.39929997107302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDXCsDIzJzU3LjUiTiAxMcKwMTcnNTEuNyJF!5e0!3m2!1sit!2sit!4v1729759274436!5m2!1sit!2sit'"],
-    } ,{
+    },{
     "id":26,
     "order":1,
     "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.jpg","regina/LocCalAni1.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
@@ -232,5 +232,14 @@ var repliche = [{
     "adress":["Piazza della Pace","Casaleone (VR)"],
     "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2812.7654422594865!2d11.198750376617674!3d45.17159945291357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477f7250cf6b8c6d%3A0x33007b033605b30a!2sScuola%20Media%20Statale!5e0!3m2!1sit!2sit!4v1761212638612!5m2!1sit!2sit'"],
-    }     
+    },{
+    "id":27,
+    "order":2,
+    "show":["Hansel & Gretel","marzapane/Locandina_HG.jpg","marzapane/Loc_HG_1.gif","marzapane","/HanselGretel.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
+    "data":"2025-12-14",
+    "meet":["14 dicembre 2025","16.30","Villa Nogarola"], 
+    "adress":["via Castello, 26","Castel d'Azzano (VR)"],
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
+    "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11215.076976107022!2d10.934642554946663!3d45.353470187152794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477f60273cb807ef%3A0xf41b3531ceb8f56!2sVilla%20Nogarola%2C%2037060%20Beccacivetta-azzano%20VR!5e0!3m2!1sit!2sit!4v1729007510907!5m2!1sit!2sit'"],
+    }    
     ];
