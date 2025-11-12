@@ -210,12 +210,21 @@ var repliche = [{
     "order":3,
     "show":["I Tre Porcellini & il Lupo Cattivo","incantalibri/Locandina_A3_Incantalibri.jpg","incantalibri/Loc_Porc_1.png","inc","/IncantalibriPrimo.html","<a href='/Spettacoli.html#incantalibri'>Gli Incantalibri</a>"],
     "data":"2026-01-10",
-    "meet":["10 Gennaio 2026","16.30","Sala Civica Barbarani"], 
+    "meet":["10 Gennaio 2026","16.00","Sala Civica Barbarani"], 
     "adress":["Via Guglielmo Marconi, 5","San Bonifacio (VR)"],
     "status": ["debutto d-blok","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2801.497823336128!2d11.295125076270468!3d45.39929997107302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDXCsDIzJzU3LjUiTiAxMcKwMTcnNTEuNyJF!5e0!3m2!1sit!2sit!4v1729759274436!5m2!1sit!2sit'"],
     },{
     "id":25,
+    "order":3,
+    "show":["I Tre Porcellini & il Lupo Cattivo","incantalibri/Locandina_A3_Incantalibri.jpg","incantalibri/Loc_Porc_1.png","inc","/IncantalibriPrimo.html","<a href='/Spettacoli.html#incantalibri'>Gli Incantalibri</a>"],
+    "data":"2026-01-10",
+    "meet":["10 Gennaio 2026","17.30","Sala Civica Barbarani"], 
+    "adress":["Via Guglielmo Marconi, 5","San Bonifacio (VR)"],
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
+    "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2801.497823336128!2d11.295125076270468!3d45.39929997107302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDXCsDIzJzU3LjUiTiAxMcKwMTcnNTEuNyJF!5e0!3m2!1sit!2sit!4v1729759274436!5m2!1sit!2sit'"],
+    },{
+    "id":26,
     "order":4,
     "show":["Aladino e la Lampada Meravigliosa","aladino/Locandina_A3_aladino.jpg","aladino/Aladino_micro.jpg","aladino","/aladino.html","<a href='/Spettacoli.html#incantalibri'>Gli Incantalibri</a>"],
     "data":"2026-01-17",
@@ -224,7 +233,7 @@ var repliche = [{
     "status": ["debutto d-blok","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2801.497823336128!2d11.295125076270468!3d45.39929997107302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDXCsDIzJzU3LjUiTiAxMcKwMTcnNTEuNyJF!5e0!3m2!1sit!2sit!4v1729759274436!5m2!1sit!2sit'"],
     },{
-    "id":26,
+    "id":27,
     "order":1,
     "show":["La Regina delle Nevi","regina/Locandina_A3_ReginaNevi.jpg","regina/LocCalAni1.gif","nevi","/ReginaNevi.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2025-12-21",
@@ -233,7 +242,7 @@ var repliche = [{
     "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2812.7654422594865!2d11.198750376617674!3d45.17159945291357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477f7250cf6b8c6d%3A0x33007b033605b30a!2sScuola%20Media%20Statale!5e0!3m2!1sit!2sit!4v1761212638612!5m2!1sit!2sit'"],
     },{
-    "id":27,
+    "id":28,
     "order":2,
     "show":["Hansel & Gretel","marzapane/Locandina_HG.jpg","marzapane/Loc_HG_1.gif","marzapane","/HanselGretel.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2025-12-14",
@@ -241,5 +250,14 @@ var repliche = [{
     "adress":["via Castello, 26","Castel d'Azzano (VR)"],
     "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11215.076976107022!2d10.934642554946663!3d45.353470187152794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477f60273cb807ef%3A0xf41b3531ceb8f56!2sVilla%20Nogarola%2C%2037060%20Beccacivetta-azzano%20VR!5e0!3m2!1sit!2sit!4v1729007510907!5m2!1sit!2sit'"],
+    },{
+    "id":29,
+    "order":3,
+    "show":["I Tre Porcellini & il Lupo Cattivo","incantalibri/Locandina_A3_Incantalibri.jpg","incantalibri/Loc_Porc_1.png","inc","/IncantalibriPrimo.html","<a href='/Spettacoli.html#incantalibri'>Gli Incantalibri</a>"],
+    "data":"2026-05-15",
+    "meet":["15 Maggio 2026","10.30","Evento privato"], 
+    "adress":["","Idro (BS)"],
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
+    "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44534.63430647058!2d10.456168929304521!3d45.76287982537336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47822860e47c4f27%3A0x40678022e6710c0!2s25074%20Idro%20BS!5e0!3m2!1sit!2sit!4v1762950881574!5m2!1sit!2sit'"],
     }
     ];
