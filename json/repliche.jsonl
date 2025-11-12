@@ -209,15 +209,15 @@ var repliche = [{
     "id":24,
     "order":3,
     "show":["I Tre Porcellini & il Lupo Cattivo","incantalibri/Locandina_A3_Incantalibri.jpg","incantalibri/Loc_Porc_1.png","inc","/IncantalibriPrimo.html","<a href='/Spettacoli.html#incantalibri'>Gli Incantalibri</a>"],
-    "data":"2026-01-03",
-    "meet":["03 Gennaio 2026","16.30","Sala Civica Barbarani"], 
+    "data":"2026-01-10",
+    "meet":["10 Gennaio 2026","16.30","Sala Civica Barbarani"], 
     "adress":["Via Guglielmo Marconi, 5","San Bonifacio (VR)"],
     "status": ["debutto d-blok","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2801.497823336128!2d11.295125076270468!3d45.39929997107302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDXCsDIzJzU3LjUiTiAxMcKwMTcnNTEuNyJF!5e0!3m2!1sit!2sit!4v1729759274436!5m2!1sit!2sit'"],
     },{
     "id":25,
     "order":4,
-    "show":["Aladino e la Lampada Meravigliosa","aladino/Locandina_A3_aladino.jpg","aladino/Aladino_micro.jpg","aladino","/IncantalibriPrimo.html","<a href='/Spettacoli.html#incantalibri'>Gli Incantalibri</a>"],
+    "show":["Aladino e la Lampada Meravigliosa","aladino/Locandina_A3_aladino.jpg","aladino/Aladino_micro.jpg","aladino","/aladino.html","<a href='/Spettacoli.html#incantalibri'>Gli Incantalibri</a>"],
     "data":"2026-01-17",
     "meet":["17 Gennaio 2026","16.30","Sala Civica Barbarani"], 
     "adress":["Via Guglielmo Marconi, 5","San Bonifacio (VR)"],
@@ -241,5 +241,5 @@ var repliche = [{
     "adress":["via Castello, 26","Castel d'Azzano (VR)"],
     "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11215.076976107022!2d10.934642554946663!3d45.353470187152794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477f60273cb807ef%3A0xf41b3531ceb8f56!2sVilla%20Nogarola%2C%2037060%20Beccacivetta-azzano%20VR!5e0!3m2!1sit!2sit!4v1729007510907!5m2!1sit!2sit'"],
-    }    
+    }
     ];
