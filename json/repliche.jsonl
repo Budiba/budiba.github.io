@@ -273,9 +273,18 @@ var repliche = [{
     "order":2,
     "show":["Hansel & Gretel","marzapane/Locandina_HG.jpg","marzapane/Loc_HG_2.gif","marzapane","/HanselGretel.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2026-01-28",
-    "meet":["28 Gennaio 2025","10.30","Evento privato"], 
+    "meet":["28 Gennaio 2026","10.30","Evento privato"], 
     "adress":["","San Bonifacio (VR)"],
     "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","riservato","Spettacolo riservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2801.617411837652!2d11.28182007627035!3d45.39688797107294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDXCsDIzJzQ4LjgiTiAxMcKwMTcnMDMuOCJF!5e0!3m2!1sit!2sit!4v1764426683210!5m2!1sit!2sit'"],
+    },{
+    "id":33,
+    "order":2,
+    "show":["Hansel & Gretel","marzapane/Locandina_HG.jpg","marzapane/Loc_HG_1.gif","marzapane","/HanselGretel.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
+    "data":"2026-02-17",
+    "meet":["17 Febbraio 2026","15.00","Biblioteca"], 
+    "adress":["Piazza IV Novembre, 30","Mestrino (PD)"],
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
+    "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5598.617586695834!2d11.758159000000001!3d45.44343320000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477ed8071fac413d%3A0xd18dd8e1d6ec743f!2sBiblioteca%20Comunale%20di%20Mestrino!5e0!3m2!1sit!2sit!4v1765184339201!5m2!1sit!2sit'"],
     }
     ];
