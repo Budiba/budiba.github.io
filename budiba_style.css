@@ -239,6 +239,10 @@ h2 {
   color: plum;
  }
 
+ .textaladino {
+  color: mediumaquamarine;
+ }
+
  .btn-nevi {
   background-color: lightblue; /* lightblue */
   border: none;
@@ -307,6 +311,55 @@ h2 {
    color: white;
  
  }
+
+ .textspeciale  {
+  color: darkred;
+ }
+ 
+ .btn-speciale {
+   background-color: darkred; /* plum */
+   border: none;
+   color: white;
+   font-size: 12px;
+   padding: 15px 18px;
+   border-radius: 10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   margin: 4px 2px;
+   cursor: pointer;
+   transition-duration: 0.4s;
+ }
+ .btn-speciale:hover {
+   background-color: darkred; /* plum */
+   border: none;
+   color: gold;
+ 
+ }
+
+ .btn-aladino {
+  background-color: mediumaquamarine; /* lightblue */
+  border: none;
+  color: black;
+  font-size: 12px;
+  padding: 15px 18px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.btn-aladino:hover {
+  background-color: mediumaquamarine; /* lightblue */
+  border: none;
+  color: white;
+
+}
+
+
+
 
   /* For mobile phones: */
 
