@@ -307,11 +307,20 @@ var repliche = [{
     },{
     "id":36,
     "order":2,
-    "show":["Hansel & Gretel","marzapane/Locandina_HG.jpg","marzapane/Loc_HG_1.gif","marzapane","/HanselGretel.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
-    "data":"2026-08-126",
+    "show":["Hansel & Gretel","marzapane/Locandina_HG.jpg","marzapane/Loc_HG_2.gif","marzapane","/HanselGretel.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
+    "data":"2026-08-26",
     "meet":["26 Agosto 2026","21.00","Piazza per la Concordia"], 
     "adress":["Piazza per la Concordia","San Martino della Battaglia (BS)"],
     "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.5250145650075!2d10.59638497662881!3d45.43907543511423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4781eace1798529d%3A0xe3804b305665199d!2sPiazza%20per%20la%20Concordia%2C%2025015%20Desenzano%20del%20Garda%20BS!5e0!3m2!1sit!2sit!4v1775744928717!5m2!1sit!2sit'"],
+    },{
+    "id":37,
+    "order":3,
+    "show":["I Tre Porcellini & il Lupo Cattivo","incantalibri/Locandina_A3_Incantalibri.jpg","incantalibri/Loc_Porc_1.png","inc","/IncantalibriPrimo.html","<a href='/Spettacoli.html#incantalibri'>Gli Incantalibri</a>"],
+    "data":"2026-05-03",
+    "meet":["3 Maggio 2026","16.17",""], 
+    "adress":["VillaRaspa di Mason Vicentino","Colceresa (VI)"],
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
+    "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11142.81430313535!2d11.59922347412355!3d45.71698321914111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4778ceec2458f337%3A0x3340232a123bcf33!2sMason%20Vicentino%2C%2036064%20Colceresa%20VI!5e0!3m2!1sit!2sit!4v1775808309188!5m2!1sit!2sit'"],
     }
     ];
