@@ -253,7 +253,7 @@ var repliche = [{
     },{
     "id":29,
     "order":3,
-    "show":["I Tre Porcellini & il Lupo Cattivo","incantalibri/Locandina_A3_Incantalibri.jpg","incantalibri/Loc_Porc_1.png","inc","/IncantalibriPrimo.html","<a href='/Spettacoli.html#incantalibri'>Gli Incantalibri</a>"],
+    "show":["I Tre Porcellini & il Lupo Cattivo","incantalibri/Locandina_A3_Incantalibri_1.jpg","incantalibri/Loc_Porc_1.jpg","inc","/IncantalibriPrimo.html","<a href='/Spettacoli.html#incantalibri'>Gli Incantalibri</a>"],
     "data":"2026-05-15",
     "meet":["15 Maggio 2026","10.30","Evento privato"], 
     "adress":["","Idro (BS)"],
@@ -316,9 +316,9 @@ var repliche = [{
     },{
     "id":37,
     "order":3,
-    "show":["I Tre Porcellini & il Lupo Cattivo","incantalibri/Locandina_A3_Incantalibri.jpg","incantalibri/Loc_Porc_1.png","inc","/IncantalibriPrimo.html","<a href='/Spettacoli.html#incantalibri'>Gli Incantalibri</a>"],
+    "show":["I Tre Porcellini & il Lupo Cattivo","incantalibri/Locandina_A3_Incantalibri_1.jpg","incantalibri/Loc_Porc_1.jpg","inc","/IncantalibriPrimo.html","<a href='/Spettacoli.html#incantalibri'>Gli Incantalibri</a>"],
     "data":"2026-05-03",
-    "meet":["3 Maggio 2026","16.17",""], 
+    "meet":["3 Maggio 2026","17.00",""], 
     "adress":["VillaRaspa di Mason Vicentino","Colceresa (VI)"],
     "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11142.81430313535!2d11.59922347412355!3d45.71698321914111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4778ceec2458f337%3A0x3340232a123bcf33!2sMason%20Vicentino%2C%2036064%20Colceresa%20VI!5e0!3m2!1sit!2sit!4v1775808309188!5m2!1sit!2sit'"],
