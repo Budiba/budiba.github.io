@@ -121,13 +121,46 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> <br>
+          <hr>
+                   <div>
+                        <button class="btnbudiba" type="button" data-bs-toggle="collapse" data-bs-target="#repliche"
+                aria-expanded="false" aria-controls="repliche">
+                Dove siamo stati </button>
+              <div class="collapse" id="repliche">
+                <div class="locandina card" style="height:300px; width:100%; overflow: auto; ">
+                  <div class='card-body flex-wrap '>
+                    <script type="text/javascript" src="json/repliche.jsonl"></script>
+                    <script>
+                      function repliche_sort(a, b) {
+                        return new Date(b.data).getTime() - new Date(a.data).getTime();
+                      }
+                      repliche.sort(repliche_sort);
+
+                      for (var i = 0; i < repliche.length; i++) {
+                        var obj = repliche[i];
+
+                        function CompareDate() {
+                          var todayDate = new Date(); //Today Date    
+                          var dateJason = new Date(obj.data);
+                          var yesterday = new Date(Date.now() - 864e5);
+
+                          if ((dateJason < yesterday)) {
+                            document.write("<div><p><b>"+ obj.show[0]+ "</b><br>" + obj.meet[0] + ", " + obj.meet[2] + ", " + obj.adress[1] + "</p><hr></div>");
+                          } else {
+                            document.write("");
+                          }
+                        } CompareDate();
+                      }
+                    </script>
+                             </div>
+                </div>
+                </div>
+                <br>
+                <hr>
+
         </div>
-        <hr>
-
-
-        <hr>
-      </div>
+          </div>
     </div>
   </div>
 
