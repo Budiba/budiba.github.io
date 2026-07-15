@@ -313,5 +313,14 @@ var repliche = [{
     "adress":["VillaRaspa di Mason Vicentino","Colceresa (VI)"],
     "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11142.81430313535!2d11.59922347412355!3d45.71698321914111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4778ceec2458f337%3A0x3340232a123bcf33!2sMason%20Vicentino%2C%2036064%20Colceresa%20VI!5e0!3m2!1sit!2sit!4v1775808309188!5m2!1sit!2sit'"],
+    },{
+    "id":37,
+    "order":2,
+    "show":["Hansel & Gretel","marzapane/Locandina_HG.jpg","marzapane/Loc_HG_1.gif","marzapane","/HanselGretel.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
+    "data":"2026-09-20",
+    "meet":["20 Settembre 2026","da definire",""], 
+    "adress":["","Castelnuovo del Garda (VR)"],
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
+    "google":["<iframe src='https://www.google.com/maps/embed?'"],
     }
     ];
