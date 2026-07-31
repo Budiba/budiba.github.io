@@ -318,9 +318,18 @@ var repliche = [{
     "order":2,
     "show":["Hansel & Gretel","marzapane/Locandina_HG.jpg","marzapane/Loc_HG_1.gif","marzapane","/HanselGretel.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2026-09-20",
-    "meet":["20 Settembre 2026","da definire",""], 
+    "meet":["20 Settembre 2026","16.00",""], 
     "adress":["","Castelnuovo del Garda (VR)"],
     "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?'"],
+    },{
+    "id":38,
+    "order":2,
+    "show":["Hansel & Gretel","marzapane/Locandina_HG.jpg","marzapane/Loc_HG_3.gif","marzapane","/HanselGretel.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
+    "data":"2027-03-06",
+    "meet":["6 Marzo 2027","16.00","Teatro Palazzo Laffranchi"], 
+    "adress":["Piazza Martiri della Libertà, 5","Carpenedolo (BS)"],
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
+    "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.212068644351!2d10.4289963!3d45.364715499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4781bc642f45a225%3A0xa84dd2fe6832939a!2sPalazzo%20Laffranchi%20e%20Sala%20Polivalente!5e0!3m2!1sit!2sit!4v1785488912687!5m2!1sit!2sit'"],
     }
     ];
