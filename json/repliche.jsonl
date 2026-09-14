@@ -318,8 +318,8 @@ var repliche = [{
     "order":2,
     "show":["Hansel & Gretel","marzapane/Locandina_HG.jpg","marzapane/Loc_HG_1.gif","marzapane","/HanselGretel.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
     "data":"2026-09-20",
-    "meet":["20 Settembre 2026","16.00",""], 
-    "adress":["","Castelnuovo del Garda (VR)"],
+    "meet":["20 Settembre 2026","16.00","Festa dell'Uva"], 
+    "adress":["Piazza della Libertà","Castelnuovo del Garda (VR)"],
     "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?'"],
     },{
