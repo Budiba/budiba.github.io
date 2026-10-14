@@ -340,5 +340,14 @@ var repliche = [{
     "adress":["Via Roma, 34","Legnaro (PD)"],
     "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2804.337801750705!2d11.963339399999999!3d45.3419929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477ec38350353739%3A0xd6ce62ca4a0bfa21!2sCorte%20Benedettina!5e0!3m2!1sit!2sit!4v1790846162061!5m2!1sit!2sit'"],
+    },{
+    "id":340,
+    "order":2,
+    "show":["Hansel & Gretel","marzapane/Locandina_HG.jpg","marzapane/Loc_HG_2.gif","marzapane","/HanselGretel.html","<a href='/Spettacoli.html#teatrino'>Il Teatro dei Burattini</a>"],
+    "data":"2026-11-07",
+    "meet":["7 Novembre 2026","14.30","Sotto la tensiostruttura"], 
+    "adress":["Piazza Roma","Vescovato (CR)"],
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
+    "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2812.5064304547714!2d10.163329076617819!3d45.17684375256535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4781ab02dfa138c7%3A0x49a1702696ae4c13!2sVescovato%2C%20Piazza%20Roma!5e0!3m2!1sit!2sit!4v1791985625903!5m2!1sit!2sit'"],
     }
     ];
