@@ -352,11 +352,20 @@ var repliche = [{
     },{
     "id":41,
     "order":5,
-    "show":["Hansel e Gretel","incantalibri/Locandina_A3_Incantalibri_2.jpg","incantalibri/Loc_HG_1.jpg","inc","/IncantalibriSecondo.html","<a href='/Spettacoli.html#incantalibri'>Gli Incantalibri</a>"],
+    "show":["Hansel e Gretel","incantalibri/Locandina_A3_Incantalibri_2.jpg","incantalibri/Loc_HG_1.jpg","libri","/IncantalibriSecondo.html","<a href='/Spettacoli.html#incantalibri'>Gli Incantalibri</a>"],
     "data":"2027-01-09",
     "meet":["9 Gennaio 2027","10.30","Biblioteca 'Roberto De Monticelli'"], 
     "adress":["Piazza A. Moro, 1","Manerba del Garda (BS)"],
     "status": ["debutto d-block","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.0259556992464!2d10.552652600000002!3d45.5498034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4781921637160b47%3A0xd1c6648075f9b5c2!2sPiazza%20Aldo%20Moro%2C%201%2C%2025080%20Manerba%20del%20Garda%20BS!5e0!3m2!1sit!2sit!4v1792172161340!5m2!1sit!2sit'"],
+    },{
+    "id":42,
+    "order":3,
+    "show":["I Tre Porcellini & il Lupo Cattivo","incantalibri/Locandina_A3_Incantalibri_1.jpg","incantalibri/Loc_Porc_1.jpg","libri","/IncantalibriPrimo.html","<a href='/Spettacoli.html#incantalibri'>Gli Incantalibri</a>"],
+    "data":"2027-02-08",
+    "meet":["8 febbraio 2027","16.00","Oratorio 'Castello'"], 
+    "adress":["Via San Carlo Borromeo, 1","Castiglione delle Stiviere (MN)"],
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
+    "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d832.9963412817905!2d10.49190119737228!3d45.39210481245285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4781be657db8726d%3A0xb4039d0a5e348ade!2sVia%20S.%20Carlo%20Borromeo%2C%201%2C%2046043%20Castiglione%20delle%20Stiviere%20MN!5e0!3m2!1sit!2sit!4v1740135439151!5m2!1sit!2sit'"],
     }
     ];
