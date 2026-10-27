@@ -376,5 +376,14 @@ var repliche = [{
     "adress":["","Idro (BS)"],
     "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","riservato","Spettacolo riservato"],  
     "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44534.63430647058!2d10.456168929304521!3d45.76287982537336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47822860e47c4f27%3A0x40678022e6710c0!2s25074%20Idro%20BS!5e0!3m2!1sit!2sit!4v1762950881574!5m2!1sit!2sit'"],
+    },{
+    "id":44,
+    "order":3,
+    "show":["I Tre Porcellini & il Lupo Cattivo","incantalibri/Locandina_A3_Incantalibri_1.jpg","incantalibri/Loc_Porc_1.jpg","libri","/IncantalibriPrimo.html","<a href='/Spettacoli.html#incantalibri'>Gli Incantalibri</a>"],
+    "data":"2026-12-07",
+    "meet":["7 dicembre 2026","17.00","Villa Nogarola"], 
+    "adress":["via Castello, 26","Castel d'Azzano (VR)"],
+    "status": ["debutto d-none","cancellato d-none","nonspostato","nonspostato","pioggia d-none","nonriservato","nonriservato"],  
+    "google":["<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11215.076976107022!2d10.934642554946663!3d45.353470187152794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477f60273cb807ef%3A0xf41b3531ceb8f56!2sVilla%20Nogarola%2C%2037060%20Beccacivetta-azzano%20VR!5e0!3m2!1sit!2sit!4v1729007510907!5m2!1sit!2sit'"],
     }
     ];
